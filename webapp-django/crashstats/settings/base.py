@@ -303,7 +303,6 @@ TCBS_RESULT_COUNTS = (
 )
 
 # channels allowed in middleware calls,
-# such as adu by signature
 CHANNELS = (
     'release',
     'beta',
@@ -311,7 +310,7 @@ CHANNELS = (
     'esr'
 )
 
-# default channel for adu by signature graph
+# default channel
 CHANNEL = 'nightly'
 
 # this is the max length of signatures in forms

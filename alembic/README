@@ -2,9 +2,10 @@
 
 To use Alembic for your next schema change:
 
-Enable your virtualenv.
+From the developer environment:
 
-Create an initial database using setupdb_app.py. See the Makefile for examples of usage.
+    docker-compose run processor bash
+    alembic -c docker/config/alembic.ini current
 
 Make a change to:
 
